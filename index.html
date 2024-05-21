@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="./assets/css/stylePokeApi.css"> -->
+    <link href="./assets/vendor/font-awesome/fontawesome.css" rel="stylesheet" />
+    <link href="./assets/vendor/font-awesome/brands.css" rel="stylesheet" />
+    <link href="./assets/vendor/font-awesome/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./assets/vendor/normalize/normalize.css">
+    <!-- bootstrap 5.3 -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.css">
+    <!-- Estilos personalizados -->
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- MENU DE NAVEGACION -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio"><img src="./assets/img/foto_perfil.avif" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobremi">Sobre Mi</a>
+                    </li>
+                    <li class="Habilidades-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN MENU DE NAVEGACION -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./assets/img/FotoPerfil.png" alt="">
+            </div>
+            <h1>Cristian Solis</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Cristian Solis.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sit dolores architecto vel nostrum, soluta doloribus iste perspiciatis. Eaque temporibus quam
+                eligendi, perferendis ut non nobis commodi aut veritatis corrupti corporis. </p>
+        </div>
+        <div class="fila">
+            <!-- DATOS PERSONALES  -->
+            <div class="col">
+                <h3>Datos Perosnales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        17 de Febrero de 1992
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        cri.solis@duocuc.cl
+                    </li>
+                    <li>
+                        <strong>WebSite</strong>
+                        Próximamente
+                    </li>
+                    <li>
+                        <strong>Ocupación</strong>
+                        <span>Estudiante Ing. Informática</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- INTERESES -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Juegos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Música</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>Viajar</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>Deporte</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Música</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Fotografía</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>Autos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            <a href="./pages/Cristian Solis Soto (1).pdf" download="CV_Cristian_Solis" >
+                Descargar CV <i class="fa-solid fa-download"></i> </a>
+            
+            <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+    <!-- HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HABILIDADES PROFESIONALES -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto"  >
+                    <img src="./assets/img/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Casino Duoc</h3>
+                        <p>Proyecto creado en Java para el ramo de programación de software de escritorio.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/img/Pokemon.jpg" alt="Pokemon">
+                    <div class="overlay">
+                        <a href="./Poke.api.html"><h3>Pokemon Api</h3></a>
+                        <p>API que muestra los primeros 151 Pokémon.</p>
+                    </div>                    
+                </div>
+
+                <div class="proyecto">
+                    <div id="poke-container"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col" >
+                <form action="https://formsubmit.co/cri.solis@duocuc.cl" method="POST">
+                    <input type="text" name="name" placeholder="Nombre">
+                    <input type="text" name="telefono" placeholder="Telefono">
+                    <input type="text" name="Email" placeholder="Email">
+                    <input type="text" name="asuanto" placeholder="Asunto">
+                    <textarea name="comentario" id="" cols="20" rows="5" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="./assets/img/img_mapa.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Llanquihue-Chile
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Llámanos: 123456789
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: cri.solis@duocuc.cl
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>2024 - Todos los derechos reservados</p>
+</footer>
+    <!-- Bootstrap JS -->
+    <script src="./assets/vendor/bootstrap/bootstrap.js"></script>
+    <!-- JQuery -->
+    <script src="./assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+    <!-- Scripts personalizados -->
+    <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/poke_dia.js"></script>
+</body>
+
+</html>
